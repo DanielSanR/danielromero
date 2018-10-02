@@ -1,83 +1,456 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from guillermomuntaner.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Oct 2018 03:22:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-  <title>Mapa animado Argentina</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Daniel Romero - Analista Programador en Posadas Misiones</title>
+	<meta name="title" content="Daniel Romero - Analista Programador en Posadas Misiones">
+	<meta name="description" content="Analista Programador. Desarrollo de aplicaciones mobiles (APPs) para  Android en Java.Desarrollo de sistemas web a medida.".>
+	<meta name="author" content="Daniel Romero">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.html" >
 </head>
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-  
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    
-  
-
-
-    
-  .body{
-          background-color: #f2f2f2!important;
-  }
-
-  
-  </style>
 <body>
-<section class="content">
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Mostrar navegación</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Ocultar navegación</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Inicio</a></li>
+            <li><a class="smoothscroll" href="#about">Sobre mi</a></li>
+	          <li><a class="smoothscroll" href="#resume">Mi Cv</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Citas</a></li>
+            <li><a class="smoothscroll" href="#contact">Contacto</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">¡ Hola !</h1>
+            <h3>Soy Daniel Romero y desarrollo apps para <span>Android</span> y sistemas web a medida desde Posadas Misiones. Se de <span>Programacion y Diseño Web</span> ,  <span>Diseño y modelado de Base de datos</span> y tambien de  frameworks como <span>Slim </span> y <span>Laravel.</span> <br><a class="smoothscroll" href="#contact">Contacta conmigo</a> o <a class="smoothscroll" href="#about">descubre más sobre mi.</a></h3>
+            <hr />
+            <ul class="social">  
+               <li><a href="https://github.com/DanielSanR"><i class="fa fa-github-alt"></i></a></li>
+                
+                
+               <li><a href="mailto:danielromero320@gmail.com"><i class="fa fa-envelope"></i></a></li>
+               
+               
+                
+               
+               <li><a href="https://www.linkedin.com/in/daniel-romeromd"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/perfil.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>Sobre mi</h2>
+
+            <p>Soy un Posadero al que desde bien pequeño le apasionan las nuevas tecnologías y la informática.<br>En las programación he encontrado mi pasión, me permite ser ingenioso y creativo y alcanzar en potencia a billones de usuarios.Creo que uno convierte en programador para descifrar la solución a problemas.
+            </p>
+
+
             <div class="row">
-              <div class="col-md-12" style="background-color: #f2f2f2!important">
-<div class="jumbotron text-center">
-  <h1>Mapa Animado de Homicidios y Femicidios</h1>
-  <p>Este mapa muestra los femicidios y homicidios agravados por el género desde el año 2012 a la fecha, 815 en total según el Ministerio de modernización.</p>
-  <div class="embed-responsive embed-responsive-16by9">
 
-<iframe width="100%" height="520" frameborder="0" src="https://danielsanr.carto.com/builder/82e4c3ca-20ff-48c2-8d6d-a92a0b18e599/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</div>
-  
-                  
+               <div class="columns download">
+                  <p>
+                     <a href="cvdanielromero.pdf" target="_blank" class="button"><i class="fa fa-download"></i>Descarga mi CV</a>
+                  </p>
+               </div>
 
-</div>
+            </div> <!-- end row -->
 
-</div>
-</div>
+         </div> <!-- end .main-col -->
 
-</section>
+      </div>
 
-<footer class="container-fluid text-center">
+   </section> <!-- About Section End-->
 
-  <div class="container-fluid bg-grey">
-  
-  <div class="row">
-<p>Contactarme</p>
 
-    <div class="col-sm-4">
-      <p><span class="glyphicon glyphicon-map-marker"></span> Posadas, AR</p>
-    </div>
-    <div class="col-sm-4">
-      <p><span class="glyphicon glyphicon-phone"></span> +(3764)-273497</p>
-    </div>
-    <div class="col-sm-4">
-      
-      <p><span class="glyphicon glyphicon-envelope"></span> danielromero320@gmail.com</p> 
-    </div>
-  </div>
-</div>
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
 
-  
-</footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
 
+         <div class="three columns header-col">
+            <h1><span>Estudios</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Analista Programador</h3>
+                  <p class="info">Normal 10 Anexo San Antonio. <span>&bull;</span> <em class="date">Julio 2018</em></p>
+
+                  <p>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Trabajos</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Programador freelancer  </h3>
+                  <p class="info"><a href="https://www.workana.com/">Freelancer </a><span>&bull;</span> <em class="date">2018- Actualidad</em></p>
+
+                  <p>Desarrollo de varios proyectos para clientes web 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Diseñador freelancer  </h3>
+                  <p class="info"><a href="https://www.eminencegaming.net/">Eminence Gaming</a><span>&bull;</span> <em class="date">2018</em></p>
+
+                  <p>Desarrollo del sitio web EminenceGaming; una landing page  para un portal Gaming. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+          
+ 
+ 
+ 
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Habilidades</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>He trabajado principalmente haciendo aplicaciones web y algunos proyectos en Android,  asi que mis principales habilidades son:
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+                   
+						<li><span class="bar-expand web"></span><em>Web: HTML, CSS &amp; JS</em></li>
+                  <li><span class="bar-expand slim"></span><em>Slim Framework</em></li>
+                  <li><span class="bar-expand sqls"></span><em>SQL Server y MySql</em></li>
+                  <li><span class="bar-expand sqls"></span><em>Diseño y Modelado de BBDD</em></li>
+                  <li><span class="bar-expand android"></span><em>Android (Java)</em></li>
+                  <li><span class="bar-expand cplusplus"></span><em>C++</em></li>
+						 
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   
+   
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Mis citas favoritas</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Imagination is more important than knowledge. For knowledge is limited to all we now know and understand, while imagination embraces the entire world, and all there ever will be to know and understand.
+                           </p>
+                           <cite>Albert Einstein</cite>
+                        </blockquote>
+                     </li> 
+
+                     <li>
+                        <blockquote>
+                           <p>Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.
+                            <br>
+                            <br>
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> 
+
+                     <li>
+                        <blockquote>
+                           <p>There is no innovation and creativity without failure.
+                           <br>Period.
+                           <br>
+                           <br>
+                           <br>
+                           </p>
+                           <cite>Brene Brown</cite>
+                        </blockquote>
+                     </li> 
+
+                     <li>
+                        <blockquote>
+                          <p>Genius is one percent inspiration, and ninety-nine percent perspiration.
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                           </p>
+                           <cite>Thomas Edison</cite>
+                        </blockquote>
+                     </li>
+
+                     <li>
+                        <blockquote>
+                          <p>If you always do what you always did, you will always get what you always got.
+                          <br>
+                          <br>
+                          <br>
+                          </p>
+                          <cite>Albert Einstein</cite>
+                        </blockquote>
+                     </li> 
+
+                     <li>
+                        <blockquote>
+                           <p>There are no old roads to new directions.
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                           </p>
+
+                           <cite>The Boston Consulting Group</cite>
+                        </blockquote>
+                     </li> 
+
+                     <li>
+                        <blockquote>
+                           <p>A discovery is said to be an accident meeting a prepared mind.
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                           </p>
+                           <cite>A. von Szent-Gyorgyi</cite>
+                        </blockquote>
+                     </li> 
+
+
+                  </ul>
+
+               </div> 
+
+            </div> 
+
+         </div> 
+
+       </div>  
+
+   </section> 
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Contacta conmigo!</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <h4 class="lead">Aqui están mis detalles de contacto para cualquier tipo de pregunta, consulta, propuesta o colaboración. Intentaré responder lo antes posible.
+                  </h4>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <div>
+                  <button onclick="location.href='mailto:danielromero320@gmail.com'" class="submit"><i class="fa fa-envelope"></i>   Escríbeme</a></button>
+               </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+    					   <h4>Detalles de contacto</h4>
+    					   <p class="address">
+    						   <span>Daniel Romero</span><br>
+                   <span>danielromero320@gmail.com</span>
+    					   </p>
+
+				   </div>
+
+		         </div>
+
+            </aside>
+
+      </div>
+
+   </section>
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">  
+               <li><a href="https://github.com/DanielSanR"><i class="fa fa-github-alt"></i></a></li>
+                 
+               <li><a href="mailto:danielromero320@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                 
+                
+               <li><a href="https://www.linkedin.com/in/daniel-romeromd"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; 2018 Daniel Romero</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
+
+<!-- Mirrored from guillermomuntaner.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Oct 2018 03:22:50 GMT -->
 </html>
