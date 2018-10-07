@@ -1,2 +1,1 @@
-# midalisdev.io
-Mapa Animaxo
+ midalisdev.io
